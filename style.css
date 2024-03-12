@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+header img{
+  width: 200px;
+}
+
+
+#menu a{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #B26EFF;
+ outline-color: #6E2AF5;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.carousel-iner{
+  max-height: 39 rem;
+}
+
+#carouselExampleCaptions{
+  display: flex;
+  flex-direction: column;
+  align-items:center; 
+  background-color: #B175F5;
+
+}
+
+#about{
+  background-color: #653CF0;
+  font-size: 100;
+  padding: 10px;
+}
+
+#about img{
+  border-radius: 50%;
+}
+
+#contacto{
+  background-color: #653CF0;
+  font-size: 100;
+  padding: 50px;
+}
+#inicio{
+  display: flex;
+  flex-direction: column;
+  align-items:center; 
+  background-color: #B175F5;
+  padding: 10pxs;
+}
+.caja{
+background-color: #B175F5;
+padding: 10px;
+}
+footer{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#iconos{
+  font-size: 45px;
+  padding: 0 8px;
+  color: #B26EFF;
+  
+}
